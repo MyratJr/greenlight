@@ -1,0 +1,11 @@
+FROM bigbluebutton/greenlight:v3
+
+COPY app/controllers/api/v1/locales_controller.rb /usr/src/app/app/controllers/api/v1/locales_controller.rb
+COPY app/assets/locales/tk.json /usr/src/app/app/assets/locales/tk.json
+COPY app/javascript/i18n.jsx /usr/src/app/app/javascript/i18n.jsx
+COPY app/assets/images/bbb_logo.png /usr/src/app/app/assets/images/bbb_logo.png
+
+RUN SECRET_KEY_BASE=dummy bundle exec rails assets:precompile
+
+# Override with old hash filename so browser finds it
+RUN cp /usr/src/app/app/assets/images/bbb_logo.png /usr/src/app/public/assets/bbb_logo-176f5d8146a2dc0605ec62f28bdaf3c2addce6747143ca19de1f8e85134f020f.png

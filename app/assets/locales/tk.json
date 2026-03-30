@@ -1,0 +1,201 @@
+{
+  "start": "Başla",
+  "search": "Gözle",
+  "home": "Baş sahypa",
+  "previous": "Öňki",
+  "back": "Yza",
+  "next": "Indiki",
+  "view": "Gör",
+  "join": "Goşul",
+  "edit": "Üýtget",
+  "save": "Ýatda sakla",
+  "save_changes": "Üýtgeşmeleri ýatda sakla",
+  "update": "Täzele",
+  "report": "Hasabat",
+  "share": "Paýlaş",
+  "cancel": "Ýatyr",
+  "reset": "Täzeden başla",
+  "reset_password": "Paroly täzeden goý",
+  "close": "Ýap",
+  "delete": "Poz",
+  "copy": "Goşulma baglanyşygyny göçür",
+  "copy_viewer_code": "Görýän kody göçür",
+  "copy_moderator_code": "Moderator kody göçür",
+  "or": "Ýa-da",
+  "online": "Onlaýn",
+  "help_center": "Kömek merkezi",
+  "are_you_sure": "Ynanyp bilýärsiňizmi?",
+  "return_home": "Baş sahypa gaýdyp gel",
+  "created_at": "Döredilen wagty",
+  "view_recordings": "Ýazgylary gör",
+  "join_session": "Sessýa goşul",
+  "no_result_search_input": "\"{{ searchInput }}\" boýunça netije tapylmady",
+  "action_permanent": "Bu hereket yzyna gaýtarylyp bilinmez.",
+
+  "homepage": {
+    "welcome_bbb": "Ynamly çözgüt wideokonferensiýa hoş geldiňiz.",
+    "bigbluebutton_description": "Ynamly çözgüt wideokonferensiýa — onlaýn sapaklar üçin açyk çeşmeli web konferensiýa ulgamy. Bu platforma okuwçylaryň bilelikde işleşmegine we real wagtda seslenme almagyna mümkinçilik berýär.",
+    "greenlight_description": "Öz otaglaryňyzy dörediň ýa-da gysga baglanyşyk arkaly beýleki otaglara goşulyň.",
+    "learn_more": "Ynamly çözgüt wideokonferensiýa barada has giňişleýin",
+    "explore_features": "Mümkinçilikleri öwren",
+    "meeting_title": "Duşuşyk başlat",
+    "meeting_description": "Wideo, ses, ekran paýlaşma we chat bilen onlaýn sapak başladyň.",
+    "recording_title": "Duşuşyklary ýazga al",
+    "recording_description": "Duşuşyklary ýazga alyň we okuwçylar bilen paýlaşyň.",
+    "settings_title": "Otaglaryňyzy dolandyryň",
+    "settings_description": "Otag sazlamalaryny üýtgedip, sapagy dolandyryň.",
+    "and_more_title": "We başga-da köp zat!",
+    "and_more_description": "Ynamly çözgüt wideokonferensiýa okuw üçin ýörite döredilen gurallar bilen üpjün edýär.",
+    "enter_meeting_url": "Duşuşyk URL giriziň",
+    "enter_meeting_url_instruction": "Aşakdaky meýdana duşuşyk baglanyşygyny giriziň."
+  },
+
+  "authentication": {
+    "sign_in": "Ulgama gir",
+    "sign_up": "Hasap aç",
+    "sign_out": "Ulgamdan çyk",
+    "email": "Email",
+    "password": "Parol",
+    "confirm_password": "Paroly tassykla",
+    "enter_email": "Email giriziň",
+    "enter_name": "Adyňyzy giriziň",
+    "remember_me": "Meni ýatda sakla",
+    "forgot_password": "Paroly ýatdan çykardyňyzmy?",
+    "dont_have_account": "Hasabyňyz ýokmy?",
+    "create_account": "Hasap döret",
+    "create_an_account": "Täze hasap döret",
+    "already_have_account": "Eýýäm hasabyňyz barmy?"
+  },
+
+  "user": {
+    "user": "Ulanyjy",
+    "users": "Ulanyjylar",
+    "name": "Ady",
+    "email_address": "Email salgysy",
+    "authenticator": "Tassyklama",
+    "full_name": "Doly ady",
+    "no_user_found": "Ulanyjy tapylmady",
+    "type_three_characters": "Iň az 3 harp ýazyň",
+    "search_not_found": "Ulanyjy tapylmady",
+
+    "profile": {
+      "profile": "Profil",
+      "language": "Dil",
+      "role": "Roly",
+      "administrator": "Administrator",
+      "guest": "Myhman"
+    },
+
+    "account": {
+      "account_info": "Hasap maglumatlary",
+      "delete_account": "Hasaby poz",
+      "change_password": "Paroly üýtget",
+      "set_password": "Täze parol goý",
+      "reset_password": "Paroly täzeden goý",
+      "update_account_info": "Maglumatlary täzele",
+      "current_password": "Häzirki parol",
+      "new_password": "Täze parol",
+      "confirm_password": "Paroly tassykla",
+      "permanently_delete_account": "Hasaby hemişelik poz",
+      "delete_account_description": "Hasaby pozsaňyz, yzyna gaýtaryp bolmaz.",
+      "delete_account_confirmation": "Hawa, pozmak isleýärin",
+      "are_you_sure_delete_account": "Hakykatdanam pozmak isleýärsiňizmi?"
+    },
+
+    "avatar": {
+      "upload_avatar": "Surat ýükläň",
+      "delete_avatar": "Suraty poz",
+      "crop_avatar": "Suraty kes"
+    },
+
+    "pending": {
+      "title": "Garaşylýan hasap",
+      "message": "Hasabyňyz administrator tarapyndan tassyklanmaly."
+    }
+  },
+
+  "room": {
+    "room": "Otag",
+    "rooms": "Otaglar",
+    "room_name": "Otag ady",
+    "add_new_room": "+ Täze otag",
+    "create_room": "Otag döret",
+    "delete_room": "Otagy poz",
+    "create_new_room": "Täze otag döret",
+    "enter_room_name": "Otag adyny giriziň",
+    "shared_by": "paýlaşan",
+    "last_session": "Soňky sessiýa: {{ localizedTime }}",
+    "no_last_session": "Soňky sessiýa ýok",
+    "search_not_found": "Otag tapylmady",
+    "rooms_list_is_empty": "Sizde entek otag ýok!",
+    
+    "meeting": {
+      "start_meeting": "Duşuşyk başlat",
+      "join_meeting": "Duşuşyga goşul",
+      "meeting_invitation": "Sizi çagyrdylar",
+      "meeting_not_started": "Duşuşyk başlamady",
+      "join_meeting_automatically": "Awto goşular",
+      "recording_consent": "Bu sessiýa ýazga alnyp bilner."
+    }
+  },
+
+  "recording": {
+    "recording": "Ýazgy",
+    "recordings": "Ýazgylar",
+    "processing": "Ýazgylar işlenýär...",
+    "name": "Ady",
+    "length": "Uzynlygy",
+    "users": "Ulanyjylar",
+    "visibility": "Görünme",
+    "formats": "Formatlar",
+    "published": "Çap edildi",
+    "unpublished": "Çap edilmedi",
+    "protected": "Goralan",
+    "public": "Açyk",
+    "delete_recording": "Ýazgyny poz",
+    "search_not_found": "Ýazgy tapylmady"
+  },
+
+  "toast": {
+    "success": {
+      "user": {
+        "user_created": "Ulanyjy döredildi",
+        "user_updated": "Ulanyjy täzelendi",
+        "user_deleted": "Ulanyjy pozuldy"
+      },
+      "session": {
+        "signed_out": "Ulgamdan çykdyňyz"
+      },
+      "room": {
+        "room_created": "Otag döredildi",
+        "room_updated": "Otag täzelendi",
+        "room_deleted": "Otag pozuldy"
+      }
+    },
+
+    "error": {
+      "problem_completing_action": "Hereket ýerine ýetirilmedi",
+      "signin_required": "Ulgama girmeli",
+      "file_upload_error": "Faýl ýükläp bolmady",
+      "invalid_credentials": "Nädogry maglumatlar"
+    }
+  },
+
+  "global_error_page": {
+    "title": "Ýalňyşlyk",
+    "message": "Näsazlyk ýüze çykdy"
+  },
+
+  "not_found_error_page": {
+    "title": "Tapylmady",
+    "message": "Sahypa tapylmady"
+  },
+
+  "account_activation_page": {
+    "title": "Hasaby işjeňleşdirmek",
+    "account_unverified": "Hasap tassyklanmady",
+    "message": "Email arkaly tassyklama gerek",
+    "resend_activation_link": "Täzeden iber",
+    "resend_btn_lbl": "Täzeden iber"
+  }
+}
