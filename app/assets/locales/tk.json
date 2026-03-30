@@ -31,7 +31,6 @@
   "join_session": "Sessýa goşul",
   "no_result_search_input": "\"{{ searchInput }}\" boýunça netije tapylmady",
   "action_permanent": "Bu hereket yzyna gaýtarylyp bilinmez.",
-
   "homepage": {
     "welcome_bbb": "Ynamly çözgüt wideokonferensiýa hoş geldiňiz.",
     "bigbluebutton_description": "Ynamly çözgüt wideokonferensiýa — onlaýn sapaklar üçin açyk çeşmeli web konferensiýa ulgamy. Bu platforma okuwçylaryň bilelikde işleşmegine we real wagtda seslenme almagyna mümkinçilik berýär.",
@@ -49,7 +48,6 @@
     "enter_meeting_url": "Duşuşyk URL giriziň",
     "enter_meeting_url_instruction": "Aşakdaky meýdana duşuşyk baglanyşygyny giriziň."
   },
-
   "authentication": {
     "sign_in": "Ulgama gir",
     "sign_up": "Hasap aç",
@@ -66,136 +64,675 @@
     "create_an_account": "Täze hasap döret",
     "already_have_account": "Eýýäm hasabyňyz barmy?"
   },
-
   "user": {
     "user": "Ulanyjy",
     "users": "Ulanyjylar",
     "name": "Ady",
-    "email_address": "Email salgysy",
-    "authenticator": "Tassyklama",
+    "email_address": "E-poçta salgysy",
+    "authenticator": "Awtentifikator",
     "full_name": "Doly ady",
     "no_user_found": "Ulanyjy tapylmady",
-    "type_three_characters": "Iň az 3 harp ýazyň",
-    "search_not_found": "Ulanyjy tapylmady",
-
+    "type_three_characters": "Beýleki ulanyjylary görkezmek üçin azyndan üç (3) harp giriziň.",
+    "search_not_found": "Hiç hili ulanyjy tapylmady",
     "profile": {
       "profile": "Profil",
       "language": "Dil",
-      "role": "Roly",
+      "role": "Rol",
       "administrator": "Administrator",
       "guest": "Myhman"
     },
-
     "account": {
-      "account_info": "Hasap maglumatlary",
-      "delete_account": "Hasaby poz",
-      "change_password": "Paroly üýtget",
-      "set_password": "Täze parol goý",
-      "reset_password": "Paroly täzeden goý",
-      "update_account_info": "Maglumatlary täzele",
-      "current_password": "Häzirki parol",
-      "new_password": "Täze parol",
-      "confirm_password": "Paroly tassykla",
-      "permanently_delete_account": "Hasaby hemişelik poz",
-      "delete_account_description": "Hasaby pozsaňyz, yzyna gaýtaryp bolmaz.",
-      "delete_account_confirmation": "Hawa, pozmak isleýärin",
-      "are_you_sure_delete_account": "Hakykatdanam pozmak isleýärsiňizmi?"
+      "account_info": "Hasap barada maglumat",
+      "delete_account": "Hasaby öçür",
+      "change_password": "Açar sözüni üýtget",
+      "set_password": "Täze açar sözüňizi sazlaň",
+      "reset_password": "Açar sözüni nol et",
+      "update_account_info": "Hasap maglumatlaryny täzele",
+      "current_password": "Häzirki açar sözi",
+      "new_password": "Täze açar sözi",
+      "confirm_password": "Açar sözüni tassyklaň",
+      "permanently_delete_account": "Hasabyňyzy hemişelik öçüriň",
+      "delete_account_description": "Eger hasabyňyzy öçürmegi saýlasaňyz, ony yzyna gaýtaryp BOLMAZ. \n Hasabyňyza degişli ähli maglumatlar, şol sanda sazlamalar, otaglar we ýazgylar aýrylar.",
+      "delete_account_confirmation": "Hawa, hasabymy öçürmek isleýärin",
+      "are_you_sure_delete_account": "Hasabyňyzy öçürmek isleýändigiňize ynanýarsyňyzmy?"
     },
-
     "avatar": {
-      "upload_avatar": "Surat ýükläň",
-      "delete_avatar": "Suraty poz",
-      "crop_avatar": "Suraty kes"
+      "upload_avatar": "Awatary ýükle",
+      "delete_avatar": "Awatary öçür",
+      "crop_avatar": "Awataryňyzy kesiň"
     },
-
     "pending": {
-      "title": "Garaşylýan hasap",
-      "message": "Hasabyňyz administrator tarapyndan tassyklanmaly."
+      "title": "Garaşylýan hasaba alyş",
+      "message": "Hasaba duranyňyz üçin sag boluň! Siziň hasabyňyz häzirki wagtda administrator tarapyndan tassyklanmaga garaşýar."
     }
   },
-
   "room": {
     "room": "Otag",
     "rooms": "Otaglar",
-    "room_name": "Otag ady",
+    "room_name": "Otagyň ady",
     "add_new_room": "+ Täze otag",
     "create_room": "Otag döret",
-    "delete_room": "Otagy poz",
+    "delete_room": "Otagy öçür",
     "create_new_room": "Täze otag döret",
     "enter_room_name": "Otag adyny giriziň",
-    "shared_by": "paýlaşan",
+    "shared_by": "paýlaşan:",
     "last_session": "Soňky sessiýa: {{ localizedTime }}",
-    "no_last_session": "Soňky sessiýa ýok",
+    "no_last_session": "Öňki sessiýa tapylmady",
     "search_not_found": "Otag tapylmady",
-    "rooms_list_is_empty": "Sizde entek otag ýok!",
-    
+    "rooms_list_is_empty": "Sizde heniz hiç hili otag ýok!",
+    "rooms_list_empty_create_room": "Aşakdaky düwmä basyp we otag adyny girizip, birinji otagyňyzy dörediň.",
     "meeting": {
-      "start_meeting": "Duşuşyk başlat",
+      "start_meeting": "Duşuşygy başlat",
       "join_meeting": "Duşuşyga goşul",
-      "meeting_invitation": "Sizi çagyrdylar",
-      "meeting_not_started": "Duşuşyk başlamady",
-      "join_meeting_automatically": "Awto goşular",
-      "recording_consent": "Bu sessiýa ýazga alnyp bilner."
+      "meeting_invitation": "Siz goşulmaga çagyryldyňyz",
+      "meeting_not_started": "Duşuşyk heniz başlamady",
+      "join_meeting_automatically": "Duşuşyk başlanda siz awtomatiki usulda goşularsyňyz",
+      "recording_consent": "Men bu mejlisiň ýazga alynmagyna razylyk berýärin. Bu meniň sesimi we şekilimi (eger açyk bolsa) öz içine alyp biler."
+    },
+    "presentation": {
+      "presentation": "Tanyşdyrma",
+      "click_to_upload": "Ýüklemek üçin basyň",
+      "drag_and_drop": " ýa-da süýräp getiriň",
+      "upload_description": "Islendik ofis resminamasyny ýa-da PDF faýlyny ýükläň (ululygy {{size}} geçmeli däl). Faýlyň ululygyna baglylykda, ulanmaga taýýar bolmazdan ozal goşmaça wagt talap edip biler",
+      "delete_presentation": "Tanyşdyrmany öçür",
+      "are_you_sure_delete_presentation": "Siz bu tanyşdyrmany öçürmek isleýändigiňize ynanýarsyňyzmy?"
+    },
+    "shared_access": {
+      "access": "Giriş hukugy",
+      "add_share_access": "+ Paýlaşmak hukugyny goş",
+      "share_room_access": "Otag girişini paýlaş",
+      "add_some_users": "Ulanyjylary goşmagyň wagty geldi!",
+      "add_some_users_description": "Täze ulanyjylary goşmak üçin aşakdaky düwmä basyň we bu otagy paýlaşmak isleýän ulanyjylaryňyzy gözläň ýa-da saýlaň.",
+      "delete_shared_access": "Paýlaşylan girişi öçür",
+      "are_you_sure_delete_shared_access": "Siz bu paýlaşylan girişi öçürmek isleýändigiňize ynanýarsyňyzmy?"
+    },
+    "settings": {
+      "settings": "Sazlamalar",
+      "room_name": "Otagyň ady",
+      "user_settings": "Ulanyjy sazlamalary",
+      "allow_room_to_be_recorded": "Otagy ýazga almaga rugsat ber",
+      "require_signed_in": "Gatnaşmazdan ozal ulanyjynyň içeri girmegini talap et",
+      "require_signed_in_message": "Bu otaga goşulmak üçin içeri girmeli.",
+      "require_mod_approval": "Gatnaşmazdan ozal moderatoryň tassyklamasyny talap et",
+      "allow_any_user_to_start": "Islendik ulanyja bu duşuşygy başlatmaga rugsat ber",
+      "all_users_join_as_mods": "Ähli ulanyjylar moderator hökmünde gatnaşsyn",
+      "mute_users_on_join": "Girende ulanyjylaryň sesini öçür",
+      "generate": "Döret",
+      "access_code": "Giriş kody",
+      "mod_access_code": "Moderator giriş kody",
+      "mod_access_code_optional": "Moderator giriş kody (islege bagly)",
+      "access_code_required": "Giriş koduny giriziň",
+      "wrong_access_code": "Nädogry giriş kody",
+      "generate_viewers_access_code": "Görüjiler üçin giriş koduny döret",
+      "generate_mods_access_code": "Moderatorlar üçin giriş koduny döret",
+      "server_tag": "Bu otag üçin serwer görnüşini saýlaň",
+      "default_tag_name": "Esasy",
+      "server_tag_desired": "Islenilýän",
+      "server_tag_required": "Talap edilýän",
+      "are_you_sure_delete_room": "Siz bu otagy öçürmek isleýändigiňize ynanýarsyňyzmy?"
     }
   },
-
   "recording": {
     "recording": "Ýazgy",
     "recordings": "Ýazgylar",
-    "processing": "Ýazgylar işlenýär...",
+    "processing": "Ýazgylar işlenilýär...",
     "name": "Ady",
-    "length": "Uzynlygy",
+    "length": "Dowamlylygy",
     "users": "Ulanyjylar",
-    "visibility": "Görünme",
+    "visibility": "Görünijilik",
     "formats": "Formatlar",
-    "published": "Çap edildi",
-    "unpublished": "Çap edilmedi",
-    "protected": "Goralan",
+    "published": "Neşir edilen",
+    "unpublished": "Neşir edilmedik",
+    "protected": "Goragly",
     "public": "Açyk",
-    "delete_recording": "Ýazgyny poz",
-    "search_not_found": "Ýazgy tapylmady"
+    "public_protected": "Açyk/Goragly",
+    "formats_help": "Elýeterli diňleýiş formatlaryny görkezýär. Formaty saýlamak BigBlueButton ýazgysyny täze goşmaçada açýar.",
+    "visibility_help": {
+      "public_protected": "Ýazgy 'Açyk ýazgylar' sahypasynda elýeterli bolup, oňa Otaga goşulmak sahypasyndan girip bolýar. Şeýle hem ony bir gezeklik çakylyk arkaly başgalar bilen paýlaşyp bolýar.",
+      "public": "Ýazgy 'Açyk ýazgylar' sahypasynda elýeterli bolup, oňa Otaga goşulmak sahypasyndan girip bolýar we onuň siltemesini islendik adam bilen paýlaşyp bolýar.",
+      "protected": "Ýazgy diňe otagyň eýesine elýeterlidir we ony bir gezeklik çakylyk arkaly başgalar bilen paýlaşyp bolýar.",
+      "published": "Ýazgy siltemesi bolan islendik adam üçin elýeterlidir.",
+      "unpublished": "Ýazgy hiç kim üçin elýeterli däl."
+    },
+    "length_in_minutes": "{{recording.length}} min.",
+    "processing_recording": "Ýazgy işlenilýär, bu birnäçe minut alyp biler...",
+    "copy_recording_urls": "Ýazgy siltemelerini nusgala",
+    "recordings_list_empty": "Sizde heniz hiç hili ýazgy ýok!",
+    "public_recordings_list_empty": "Heniz hiç hili açyk ýazgy ýok!",
+    "recordings_list_empty_description": "Ýazgylar siz duşuşygy başladanyňyzdan we ony ýazga geçireniňizden soň şu ýerde peýda bolar.",
+    "public_recordings_list_empty_description": "Ýazgylar elýeterli bolanda şu ýerde peýda bolar.",
+    "delete_recording": "Ýazgyny öçür",
+    "are_you_sure_delete_recording": "Siz bu ýazgyny öçürmek isleýändigiňize ynanýarsyňyzmy?",
+    "search_not_found": "Hiç hili ýazgy tapylmady"
   },
-
+  "admin": {
+    "admin_panel": "Administrator paneli",
+    "manage_users": {
+      "manage_users": "Ulanyjylary dolandyrmak",
+      "active": "Aktiw",
+      "approve": "Tassykla",
+      "decline": "Ret et",
+      "pending": "Garaşylýar",
+      "banned": "Gadagan edilen",
+      "ban": "Gadagan et",
+      "unban": "Gadagany aýyr",
+      "unverified": "Tassyklanmadyk",
+      "verify": "Tassykla",
+      "deleted": "Öçürilen",
+      "invited_tab": "Çagyrylanlar",
+      "invite_user": "Ulanyjyny çagyr",
+      "send_invitation": "Çakylyk iber",
+      "enter_user_email": "Ulanyjynyň e-poçtasyny giriziň",
+      "new_user": "Täze ulanyjy",
+      "add_new_user": "Täze ulanyjy",
+      "create_new_user": "Täze ulanyjy döret",
+      "edit_user": "Ulanyjyny redaktirlemek",
+      "delete_user": "Ulanyjyny öçür",
+      "users_edit_path": "Ulanyjylar/Redaktirlemek",
+      "create_account": "Hasap döret",
+      "create_room": "Otag döret",
+      "create_new_room": "Täze otag döret",
+      "user_created_at": "Döredilen wagty: {{localizedTime}}",
+      "are_you_sure_delete_account": "{{user.name}} ulanyjysynyň hasabyny öçürmek isleýändigiňize ynanýarsyňyzmy?",
+      "delete_account_warning": "Eger bu hasaby öçürmegi saýlasaňyz, ony yzyna gaýtaryp BOLMAZ.",
+      "empty_active_users": "Bu serwerde heniz aktiw ulanyjy ýok!",
+      "empty_active_users_subtext": "Ulanyjynyň ýagdaýy aktiw diýlip bellenende, olar şu ýerde peýda bolar.",
+      "empty_pending_users": "Bu serwerde heniz garaşylýan ulanyjy ýok!",
+      "empty_pending_users_subtext": "Ulanyjynyň ýagdaýy garaşylýar diýlip bellenende, olar şu ýerde peýda bolar.",
+      "empty_banned_users": "Bu serwerde heniz gadagan edilen ulanyjy ýok!",
+      "empty_banned_users_subtext": "Ulanyjynyň ýagdaýy gadagan edildi diýlip bellenende, olar şu ýerde peýda bolar.",
+      "empty_unverified_users": "Bu serwerde heniz tassyklanmadyk ulanyjy ýok!",
+      "empty_unverified_users_subtext": "Islendik tassyklanmadyk ulanyjylar şu ýerde peýda bolar.",
+      "empty_invited_users": "Bu serwerde heniz çagyrylan ulanyjy ýok!",
+      "empty_invited_users_subtext": "Ulanyjynyň ýagdaýy çagyryldy diýlip bellenende, olar şu ýerde peýda bolar.",
+      "invited": {
+        "time_sent": "Iberilen wagty",
+        "valid": "Dogry",
+        "revoke": "Yzyna al"
+      }
+    },
+    "server_rooms": {
+      "server_rooms": "Serwer otaglary",
+      "name": "Ady",
+      "owner": "Eýesi",
+      "room_id": "Otag belgisi (ID)",
+      "participants": "Gatnaşyjylar",
+      "status": "Ýagdaýy",
+      "running": "Dowam edýär",
+      "not_running": "Dowam edenok",
+      "active": "Aktiw",
+      "current_session": "Häzirki sessiýa: {{lastSession}}",
+      "last_session": "Soňky sessiýa: {{localizedTime}}",
+      "no_meeting_yet": "Heniz hiç hili duşuşyk bolmady.",
+      "delete_server_rooms": "Serwer otagyny öçür",
+      "resync_recordings": "Ýazgylary täzeden sinkronla",
+      "empty_room_list": "Heniz serwer otaglary ýok!",
+      "empty_room_list_subtext": "Birinji otagyňyzy döredeniňizden soň, otaglar şu ýerde peýda bolar."
+    },
+    "server_recordings": {
+      "server_recordings": "Serwer ýazgylary",
+      "latest_recordings": "Soňky ýazgylar",
+      "no_recordings_found": "Hiç hili ýazgy tapylmady."
+    },
+    "site_settings": {
+      "site_settings": "Saýt sazlamalary",
+      "customize_greenlight": "Greenlight-y özleşdiriň",
+      "appearance": {
+        "appearance": "Daşky görnüşi",
+        "brand_color": "Brend reňki",
+        "regular": "Adaty",
+        "lighten": "Açygrak",
+        "brand_image": "Brend suraty",
+        "click_to_upload": "Ýüklemek üçin basyň",
+        "drag_and_drop": " ýa-da süýräp getiriň",
+        "upload_brand_image_description": "PNG, JPG ýa-da SVG faýlyny ýükläň (ululygy {{size}} geçmeli däl). Faýlyň ululygyna baglylykda, ulanmaga taýýar bolmazdan ozal goşmaça wagt talap edip biler",
+        "remove_branding_image": "Brend suratyny aýyr"
+      },
+      "administration": {
+        "administration": "Dolandyryş",
+        "terms": "Şertler we düzgünler",
+        "privacy": "Gupýalylyk bildirişi",
+        "privacy_policy": "Gupýalylyk bildirişi",
+        "accessibility_statement": "Elýeterlilik barada beýannama",
+        "change_term_links": "Sahypanyň aşagynda peýda bolýan şertler siltemelerini üýtgediň",
+        "change_privacy_link": "Sahypanyň aşagynda peýda bolýan gupýalylyk siltemesini üýtgediň",
+        "change_accessibility_statement_link": "Sahypanyň aşagynda peýda bolýan elýeterlilik beýannamasynyň siltemesini üýtgediň",
+        "helpcenter": "Kömek merkezi",
+        "change_helpcenter_link": "Profil menýusynyň aşagynda peýda bolýan kömek merkezi siltemesini üýtgediň",
+        "maintenance": "Tehniki hyzmat bannery",
+        "change_maintenance_text": "Sahypanyň ýokarsynda peýda bolýan tehniki hyzmat tekstini üýtgediň",
+        "change_url": "URL-i üýtget",
+        "set_text": "Teksti sazla",
+        "clear_banner": "Bannery arassala",
+        "enter_link": "Siltemäni şu ýere giriziň"
+      },
+      "settings": {
+        "settings": "Sazlamalar",
+        "allow_users_to_share_rooms": "Ulanyjylara otaglary paýlaşmaga rugsat ber",
+        "allow_users_to_share_rooms_description": "Eger öçürilse, otag sazlamalaryndan paýlaşmak düwmesi aýrylar we ulanyjylar otaglary paýlaşyp bilmezler",
+        "allow_users_to_preupload_presentation": "Ulanyjylara tanyşdyrmalary öňünden ýüklemäge rugsat ber",
+        "allow_users_to_preupload_presentation_description": "Ulanyjylar şol otag üçin esasy tanyşdyrma hökmünde ulanyljak faýly öňünden ýükläp bilerler",
+        "show_sign_in_on_room_join": "Otaga girilende 'Içeri gir' siltemesini görkez",
+        "show_sign_in_on_room_join_description": "Eger ulanyjy içeri girmedik bolsa, otaga girilýän wagty kartanyň aşagynda içeri girmek üçin silteme peýda bolar",
+        "default_visibility": "Ýazgylaryň esasy görünijiligi",
+        "default_visibility_description": "Ähli täze döredilen ýazgylar başlangyç hökmünde şu görünijilige eýe bolar",
+        "session_timeout": "Sessiýanyň möhleti",
+        "session_timeout_description": "Sessiýanyň möhletini adaty kuki (1 gün) ýa-da uzaldylan kuki (7 gün) hökmünde sazlap bilersiňiz",
+        "default_session_timeout": "Adaty (1 gün)",
+        "extended_session_timeout": "Uzaldylan (7 gün)"
+      },
+      "registration": {
+        "registration": "Hasaba alyş",
+        "role_mapping_by_email": "E-poçta arkaly rol kesgitlemek",
+        "role_mapping_by_email_description": "Ulanyjyny e-poçtasy arkaly belli bir rola birikdiriň. Format şu görnüşde bolmaly: rol1=email1,rol2=email2",
+        "enter_role_mapping_rule": "Rol birikdirme düzgünini giriziň",
+        "resync_on_login": "Her gezek içeri girilende ulanyjy maglumatlaryny sinkronla",
+        "resync_on_login_description": "Ulanyjy her gezek içeri girende maglumatlaryny täzele, şeýlelikde daşky awtentifikasiýa maglumatlary Greenlight bilen elmydama gabat geler",
+        "default_role": "Esasy rol",
+        "default_role_description": "Täze döredilen ulanyjylara beriljek başlangyç rol",
+        "registration_method": "Hasaba alyş usuly",
+        "registration_method_description": "Ulanyjylaryň saýtda hasaba durmak usulyny üýtgediň",
+        "registration_methods" : {
+          "open": "Açyk hasaba alyş",
+          "invite": "Diňe çakylyk arkaly",
+          "approval": "Tassyklamak/Ret etmek"
+        },
+        "allowed_domains": "Rugsat berilen e-poçta domenleri",
+        "allowed_domains_signup_description": "Diňe belli e-poçta domenlerine hasaba durmaga rugsat ber. Format şu görnüşde bolmaly: @test.com,domen.com",
+        "enter_allowed_domains_rule" : "Rugsat berilen domenleri giriziň"
+      }
+    },
+    "room_configuration": {
+      "room_configuration": "Otag sazlamalary",
+      "default": "Islege bagly (başlangyç: açyk)",
+      "optional": "Islege bagly (başlangyç: öçürilen)",
+      "enabled": "Hökman açyk",
+      "disabled": "Öçürilen",
+      "configurations": {
+        "allow_room_to_be_recorded": "Otagy ýazga almaga rugsat ber",
+        "allow_room_to_be_recorded_description": "Otag eýelerine otagy ýazga almak mümkinçiligini saýlamaga rugsat berýär. Eger açyk bolsa, moderator duşuşyk başlanda 'Ýazga al' düwmesine basmaly.",
+        "require_user_signed_in": "Gatnaşmazdan ozal ulanyjynyň içeri girmegini talap et",
+        "require_user_signed_in_description": "Diňe Greenlight hasaby bolan ulanyjylara duşuşyga gatnaşmaga rugsat berýär. Eger içeri girmedik bolsalar, otaga girmek islänlerinde giriş sahypasyna ugradylar.",
+        "require_mod_approval": "Gatnaşmazdan ozal moderatoryň tassyklamasyny talap et",
+        "require_mod_approval_description": "Ulanyjy girmek islände moderatora bildiriş iberýär. Eger moderator tassyklasa, ulanyjy duşuşyga gatnaşyp biler.",
+        "allow_any_user_to_start_meeting": "Islendik ulanyja duşuşygy başlatmaga rugsat ber",
+        "allow_any_user_to_start_meeting_description": "Islendik ulanyja duşuşygy islendik wagt başlatmaga rugsat berýär. Adatça, duşuşygy diňe otag eýesi başladyp bilýär.",
+        "allow_users_to_join_as_mods": "Ähli ulanyjylar moderator hökmünde gatnaşsyn",
+        "allow_users_to_join_as_mods_description": "Duşuşyga gatnaşýan ähli ulanyjylara BigBlueButton-da moderator hukuklaryny berýär",
+        "mute_users_on_join": "Girende ulanyjylaryň sesini öçür",
+        "mute_users_on_join_description": "Ulanyjy BigBlueButton duşuşygyna girende sesini awtomatiki öçürýär",
+        "viewer_access_code": "Görüji üçin giriş kody",
+        "viewer_access_code_description": "Otag eýelerine ulanyjylar bilen paýlaşyp boljak tötänleýin kod döretmäge rugsat berýär. Kod döredilen bolsa, ulanyjylar girmek üçin ony girizmeli bolarlar.",
+        "mod_access_code": "Moderator üçin giriş kody",
+        "mod_access_code_description": "Otag eýelerine ulanyjylar bilen paýlaşyp boljak tötänleýin kod döretmäge rugsat berýär. Bu kod bilen giren ulanyjy awtomatiki moderator bolar."
+      }
+    },
+    "roles": {
+      "role": "Rol",
+      "roles": "Rollar",
+      "administrator": "Administrator",
+      "guest": "Myhman",
+      "manage_roles": "Rollary dolandyrmak",
+      "delete_role": "Roly öçür",
+      "are_you_sure_delete_role": "Siz bu roly öçürmek isleýändigiňize ynanýarsyňyzmy?",
+      "enter_role_name": "Rol adyny giriziň",
+      "add_role": "+ Rol döret",
+      "create_role": "Rol döret",
+      "create_new_role": "Täze rol döret",
+      "no_role_found": "Hiç hili rol tapylmady.",
+      "search_not_found": "Gözlegiňiz boýunça rol tapylmady",
+      "edit": {
+        "create_room": "Bu roly bolan ulanyjylara otag döretmäge rugsat ber",
+        "record": "Bu roly bolan ulanyjylara duşuşyklary ýazga almaga rugsat ber",
+        "manage_users": "Bu roly bolan ulanyjylara ulanyjylary dolandyrmaga rugsat ber",
+        "manage_rooms": "Bu roly bolan ulanyjylara serwer otaglaryny dolandyrmaga rugsat ber",
+        "manage_recordings": "Bu roly bolan ulanyjylara serwer ýazgylaryny dolandyrmaga rugsat ber",
+        "manage_site_settings": "Bu roly bolan ulanyjylara saýt sazlamalaryny dolandyrmaga rugsat ber",
+        "manage_roles": "Bu roly bolan ulanyjylara beýleki rollary redaktirlemäge rugsat ber",
+        "shared_list": "Otaglary paýlaşmak sanawynda bu roly bolan ulanyjylary görkez",
+        "room_limit": "Otag çägi",
+        "email_on_signup": "Täze ulanyjy hasaba duranda e-poçta habarnamasyny al",
+        "allowed_recording_visibility": "Rugsat berilen ýazgy görünijilikleri"
+      }
+    }
+  },
   "toast": {
     "success": {
       "user": {
-        "user_created": "Ulanyjy döredildi",
-        "user_updated": "Ulanyjy täzelendi",
-        "user_deleted": "Ulanyjy pozuldy"
+        "user_created": "Täze ulanyjy döredildi.",
+        "user_updated": "Ulanyjy täzelendi.",
+        "user_deleted": "Ulanyjy öçürildi.",
+        "avatar_updated": "Awatar täzelendi.",
+        "password_changed": "Açar sözi üstünlikli üýtgedildi. Haýyş edýäris, täzeden içeri giriň.",
+        "password_updated": "Açar sözi täzelendi.",
+        "account_activated": "Hasabyňyz işjeňleşdirildi.",
+        "activation_email_sent": "Hasabyňyzy işjeňleşdirmek üçin görkezmeleri öz içine alýan e-poçta iberildi.",
+        "reset_pwd_email_sent": "Açar sözüňizi täzelemek üçin görkezmeleri öz içine alýan e-poçta iberildi."
       },
       "session": {
-        "signed_out": "Ulgamdan çykdyňyz"
+        "signed_out": "Siz ulgamdan çykdyňyz."
       },
       "room": {
-        "room_created": "Otag döredildi",
-        "room_updated": "Otag täzelendi",
-        "room_deleted": "Otag pozuldy"
+        "room_created": "Täze otag döredildi.",
+        "room_updated": "Otag täzelendi.",
+        "room_deleted": "Otag öçürildi.",
+        "room_shared": "Otag paýlaşyldy.",
+        "room_unshared": "Otagyň paýlaşylmagy bes edildi.",
+        "recordings_synced": "Otagyň ýazgylary sinkronlandy.",
+        "room_configuration_updated": "Otag sazlamalary täzelendi.",
+        "room_setting_updated": "Otagyň parametri täzelendi.",
+        "presentation_updated": "Tanyşdyrma täzelendi.",
+        "presentation_deleted": "Tanyşdyrma öçürildi.",
+        "joining_meeting": "Duşuşyga goşulýar...",
+        "meeting_started": "Duşuşyk başlady.",
+        "access_code_copied": "Giriş kody nusgalandy.",
+        "access_code_generated": "Täze giriş kody döredildi.",
+        "access_code_deleted": "Giriş kody öçürildi.",
+        "copied_meeting_url": "Duşuşygyň URL salgysy nusgalandy. Bu silteme duşuşyga goşulmak üçin ulanylyp bilner.",
+        "copied_viewer_code": "Görüjiniň giriş kody nusgalandy.",
+        "copied_moderator_code": "Moderatoryň giriş kody nusgalandy."
+      },
+      "site_settings": {
+        "site_setting_updated": "Saýt sazlamasy täzelendi.",
+        "brand_color_updated": "Brend reňki täzelendi.",
+        "brand_image_updated": "Brend suraty täzelendi.",
+        "brand_image_deleted": "Brend suraty öçürildi.",
+        "privacy_policy_updated": "Gupýalylyk bildirişi täzelendi.",
+        "helpcenter_updated": "Kömek merkeziniň siltemesi täzelendi.",
+        "terms_of_service_updated": "Hyzmat şertleri täzelendi.",
+        "maintenance_updated": "Tehniki hyzmat bannery täzelendi.",
+        "allowed_domains_signup_updated": "Hasaba durmaga rugsat berilýän e-poçta domenleri täzelendi."
+      },
+      "recording": {
+        "recording_visibility_updated": "Ýazgynyň görünijiligi täzelendi.",
+        "recording_name_updated": "Ýazgynyň ady täzelendi.",
+        "recording_deleted": "Ýazgy öçürildi.",
+        "copied_urls": "Ýazgynyň URL salgysy nusgalandy."
+      },
+      "role": {
+        "role_created": "Täze rol döredildi.",
+        "role_updated": "Rol täzelendi.",
+        "role_deleted": "Rol öçürildi.",
+        "role_permission_updated": "Roluň rugsady täzelendi."
+      },
+      "invitations": {
+        "invitation_sent": "Çakylyk iberildi.",
+        "invitation_revoked": "Çakylyk yzyna alyndy."
       }
     },
-
     "error": {
-      "problem_completing_action": "Hereket ýerine ýetirilmedi",
-      "signin_required": "Ulgama girmeli",
-      "file_upload_error": "Faýl ýükläp bolmady",
-      "invalid_credentials": "Nädogry maglumatlar"
+      "problem_completing_action": "Hereketi tamamlap bolmady. \n Haýyş edýäris, täzeden synanyşyň.",
+      "server_type_unavailable": "Talap edilýän serwer görnüşi elýeterli däl. Haýyş edýäris, otag sazlamalarynda başga görnüşi saýlaň.",
+      "file_type_not_supported": "Faýlyň bu görnüşi goldanylmaýar.",
+      "file_size_too_large": "Faýlyň ululygy gaty uly.",
+      "file_upload_error": "Faýly ýükläp bolmady.",
+      "signin_required": "Bu sahypa girmek üçin ulgama girmeli.",
+      "malware_detected": "Zyýanly programma tapyldy! Ýüklän faýlyňyzda zyýanly programma bolup biler. Haýyş edýäris, faýlyňyzy barlaň we täzeden synanyşyň.",
+      "roles": {
+        "role_assigned": "Bu roly öçürip bolmaýar, sebäbi ol azyndan bir ulanyja bellenen."
+      },
+      "users": {
+        "signup_error": "Siziň awtentifikasiýanyňyz şowsuz boldy. Haýyş edýäris, administrator bilen habarlaşyň.",
+        "invalid_invite": "Çakylyk tokeniňiz nädogry ýa-da möhleti geçen. Täze token almak üçin administrator bilen habarlaşyň.",
+        "email_exists": "Bu e-poçta bilen eýýäm hasap bar. Haýyş edýäris, başga e-poçta bilen täzeden synanyşyň.",
+        "old_password": "Girizen açar sözüňiz nädogry.",
+        "pending": "Siziň hasaba alnyşyňyz administrator tarapyndan tassyklanmaga garaşýar. Haýyş edýäris, soňrak täzeden synanyşyň.",
+        "banned": "Siziň bu programma girmäge rugsadyňyz ýok. Eger munuň ýalňyşlykdygyna ynanýan bolsaňyz, administrator bilen habarlaşyň.",
+        "hcaptcha_invalid": "CAPTCHA barlagy şowsuz boldy. Haýyş edýäris, täzeden synanyşyň."
+      },
+      "rooms": {
+        "room_limit": "Otag sanynyň çägine ýetilenligi sebäpli täze otag döredip bolmaýar."
+      },
+      "session": {
+        "invalid_credentials": "Ulanyjy ady ýa-da açar sözi nädogry. Haýyş edýäris, maglumatlaryňyzy barlaň we täzeden synanyşyň."
+      }
     }
   },
-
   "global_error_page": {
     "title": "Ýalňyşlyk",
     "message": "Näsazlyk ýüze çykdy"
   },
-
   "not_found_error_page": {
     "title": "Tapylmady",
     "message": "Sahypa tapylmady"
   },
-
   "account_activation_page": {
     "title": "Hasaby işjeňleşdirmek",
     "account_unverified": "Hasap tassyklanmady",
     "message": "Email arkaly tassyklama gerek",
     "resend_activation_link": "Täzeden iber",
     "resend_btn_lbl": "Täzeden iber"
+  }, 
+  "forms": {
+    "validations": {
+      "full_name": {
+        "required": "Doly adyňyzy giriziň",
+        "min": "Adyňyzyň dowamlylygy azyndan 2 harp bolmaly",
+        "max": "Adyňyzyň dowamlylygy iň köp 255 harp bolmaly"
+      },
+      "email": {
+        "required": "E-poçtaňyzy giriziň",
+        "email": "Girizilen maglumat e-poçta formatyna gabat gelmeýär",
+        "min": "E-poçtaňyzyň dowamlylygy azyndan 6 harp bolmaly",
+        "max": "E-poçtaňyzyň dowamlylygy iň köp 255 harp bolmaly"
+      },
+      "password": {
+        "required": "Açar sözüni giriziň",
+        "match": "Açar sözünde azyndan şular bolmaly:",
+        "min": "- Sekiz harp",
+        "lower": "- Bir setir harp (kiçi)",
+        "upper": "- Bir baş harp (uly)",
+        "digit": "- Bir san",
+        "symbol": "- Bir belgi",
+        "max": "Açar sözüniň dowamlylygy iň köp 255 harp bolmaly"
+      },
+      "password_confirmation": {
+        "required": "Açar sözüni tassyklamagy giriziň",
+        "match": "Açar sözleri birmeňzeş däl"
+      },
+      "emails": {
+        "required": "Azyndan bir sany dogry e-poçta giriziň",
+        "list": "E-poçtalary otur (,) arkaly bölüp giriziň (ulanyjy@site.com,ulanyjy2@site.com)"
+      },
+      "role_name": {
+        "required": "Rol adyny giriziň"
+      },
+      "role": {
+        "limit": {
+          "required": "Otaglaryň sanynyň çägini giriziň",
+          "min": "Iň az mukdar: 0",
+          "max": "Iň köp mukdar: 100"
+        },
+        "type": {
+          "error": "Siz san girizmeli"
+        }
+      },
+      "room": {
+        "name": {
+          "required": "Otag adyny giriziň.",
+          "min": "Adyňyzyň dowamlylygy azyndan 2 harp bolmaly"
+        }
+      },
+      "room_join": {
+        "name": {
+          "required": "Adyňyzy giriziň."
+        }
+      },
+      "url": {
+        "invalid": "Nädogry URL"
+      },
+      "text_form": {
+        "value": {
+          "required": "Habar giriziň"
+        }
+      }
+    },
+    "room": {
+      "fields": {
+        "name": {
+          "label": "Otagyň ady",
+          "placeholder": "Otag adyny giriziň..."
+        }
+      }
+    },
+    "room_join": {
+      "fields": {
+        "name": {
+          "label": "Ady",
+          "placeholder": "Adyňyzy giriziň"
+        },
+        "access_code": {
+          "label": "Giriş kody",
+          "placeholder": "Giriş koduny giriziň"
+        },
+        "recording_consent": {
+          "label": "Men bu mejlisiň ýazga alynmagyna razylyk berýärin. Bu meniň sesimi we şekilimi (eger açyk bolsa) öz içine alyp biler."
+        }
+      }
+    },
+    "user": {
+      "signup": {
+        "fields": {
+          "full_name": {
+            "label": "Doly ady",
+            "placeholder": "Doly adyňyzy giriziň"
+          },
+          "email": {
+            "label": "E-poçta",
+            "placeholder": "E-poçtaňyzy giriziň"
+          },
+          "password": {
+            "label": "Açar sözi",
+            "placeholder": "Açar sözi dörediň"
+          },
+          "password_confirmation": {
+            "label": "Açar sözüni tassyklaň",
+            "placeholder": "Açar sözüni tassyklaň"
+          }
+        }
+      },
+      "signin": {
+        "fields": {
+          "email": {
+            "label": "E-poçta",
+            "placeholder": "E-poçta"
+          },
+          "password": {
+            "label": "Açar sözi",
+            "placeholder": "Açar sözi"
+          },
+          "remember_me": {
+            "label": "Meni ýatda sakla"
+          }
+        }
+      },
+      "change_password": {
+        "fields": {
+          "old_password": {
+            "label": "Häzirki açar sözi",
+            "placeholder": "Açar sözüňizi giriziň"
+          },
+          "new_password": {
+            "label": "Täze açar sözi",
+            "placeholder": "Täze açar sözüňizi giriziň"
+          },
+          "password_confirmation": {
+            "label": "Açar sözüni tassyklaň",
+            "placeholder": "Täze açar sözüňizi tassyklaň"
+          }
+        },
+        "validations": {
+          "old_password": {
+            "required": "Häzirki açar sözüňizi giriziň"
+          }
+        }
+      },
+      "forget_password": {
+        "fields": {
+          "email": {
+            "label": "E-poçta",
+            "placeholder": "Hasabyňyzyň e-poçtasyny giriziň"
+          }
+        },
+        "validations": {
+          "email": {
+            "required": "Hasabyňyzyň e-poçtasyny giriziň"
+          }
+        }
+      },
+      "reset_password": {
+        "fields": {
+          "new_password": {
+            "label": "Täze açar sözi",
+            "placeholder": "Täze açar sözüňizi giriziň"
+          },
+          "password_confirmation": {
+            "label": "Açar sözüni tassyklaň",
+            "placeholder": "Täze açar sözüňizi tassyklaň"
+          }
+        }
+      },
+      "update_user": {
+        "fields": {
+          "full_name": {
+            "label": "Doly ady"
+          },
+          "email": {
+            "label": "E-poçta"
+          },
+          "language": {
+            "label": "Dil"
+          },
+          "role": {
+            "label": "Roly"
+          }
+        }
+      }
+    },
+    "admin": {
+      "createUser": {
+        "fields": {
+          "full_name": {
+            "label": "Doly ady",
+            "placeholder": "Ulanyjynyň doly adyny giriziň"
+          },
+          "email": {
+            "label": "E-poçta",
+            "placeholder": "Ulanyjynyň e-poçtasyny giriziň"
+          },
+          "password": {
+            "label": "Açar sözi",
+            "placeholder": "Ulanyjy üçin açar sözüni giriziň"
+          },
+          "password_confirmation": {
+            "label": "Açar sözüni tassyklaň",
+            "placeholder": "Açar sözüni tassyklaň"
+          }
+        }
+      },
+      "invite_user": {
+        "fields": {
+          "emails": {
+            "label": "E-poçtalar"
+          }
+        }
+      },
+      "site_settings": {
+        "fields": {
+          "value": {
+            "placeholder": "Sitemäni şu ýere giriziň...",
+            "text_placeholder": "Teksti şu ýere giriziň..."
+          }
+        }
+      },
+      "roles": {
+        "fields": {
+          "name": {
+            "label": "Rol ady",
+            "placeholder": "Rol adyny giriziň..."
+          }
+        }
+      }
+    }
   }
 }
